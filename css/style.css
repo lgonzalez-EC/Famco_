@@ -1,19 +1,18 @@
-
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
     visibility: hidden;
     transition: opacity .8s ease-out, visibility 0s linear .5s;
     z-index: 99999;
- }
+}
 
- #spinner.show {
-     transition: opacity .8s ease-out, visibility 0s linear .0s;
-     visibility: visible;
-     opacity: 1;
- }
+#spinner.show {
+    transition: opacity .8s ease-out, visibility 0s linear .0s;
+    visibility: visible;
+    opacity: 1;
+}
 
- .back-to-top {
+.back-to-top {
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -26,7 +25,6 @@
     z-index: 99;
 }
 /*** Spinner End ***/
-
 
 /*** Button Start ***/
 .btn {
@@ -174,6 +172,19 @@
 #searchModal .modal-content {
     background: rgba(255, 255, 255, .8);
 }
+
+/* Logo styling */
+.logo-img {
+    height: 100px; 
+    width: auto;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .logo-img {
+        height: 80px; /* Tamaño más pequeño para pantallas pequeñas */
+    }
+}
 /*** Navbar End ***/
 
 /*** Hero Header ***/
@@ -240,7 +251,6 @@
 }
 /*** Hero Header end ***/
 
-
 /*** featurs Start ***/
 .featurs .featurs-item .featurs-icon {
     position: relative;
@@ -262,7 +272,6 @@
 }
 /*** featurs End ***/
 
-
 /*** service Start ***/
 .service .service-item .service-content {
     position: relative;
@@ -274,7 +283,6 @@
 }
 
 /*** service End ***/
-
 
 /*** Fruits Start ***/
 .fruite .tab-class .nav-item a.active {
@@ -319,7 +327,6 @@
     transform: scale(1.3);
 }
 /*** Fruits End ***/
-
 
 /*** vesitable Start ***/
 .vesitable .vesitable-item {
@@ -384,13 +391,11 @@
 }
 /*** vesitable End ***/
 
-
 /*** Banner Section Start ***/
 .banner .banner-btn:hover {
     background: var(--bs-primary);
 }
 /*** Banner Section End ***/
-
 
 /*** Facts Start ***/
 .counter {
@@ -414,7 +419,6 @@
     margin-bottom: 0;
 }
 /*** Facts End ***/
-
 
 /*** testimonial Start ***/
 .testimonial .owl-nav .owl-prev {
@@ -450,7 +454,6 @@
 }
 /*** testimonial End ***/
 
-
 /*** Single Page Start ***/
 .pagination {
     display: inline-block;
@@ -478,7 +481,6 @@
 }
 /*** Single Page End ***/
 
-
 /*** Footer Start ***/
 .footer .footer-item .btn-link {
     line-height: 35px;
@@ -494,4 +496,3 @@
     line-height: 35px;
 }
 /*** Footer End ***/
-

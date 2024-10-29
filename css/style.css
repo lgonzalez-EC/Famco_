@@ -105,12 +105,12 @@
 }
 
 .topbar .top-link a small:hover {
-    color: var(--bs-secondary) !important;
+    color: var(--bs-blue) !important;
     transition: 0.5s;
 }
 
 .topbar .top-link a small:hover i {
-    color: var(--bs-primary) !important;
+    color: var(--bs-blue) !important;
 }
 /*** Topbar End ***/
 
@@ -123,7 +123,7 @@
 
 .navbar {
     height: 100px;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgba(8, 247, 0, 0.801);
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -477,7 +477,7 @@
 .pagination a:hover:not(.active) {background-color: var(--bs-primary)}
 
 .nav.nav-tabs .nav-link.active {
-    border-bottom: 2px solid var(--bs-secondary) !important;
+    border-bottom: 2px solid var(--bs-blue) !important;
 }
 /*** Single Page End ***/
 
@@ -489,7 +489,7 @@
 }
 
 .footer .footer-item .btn-link:hover {
-    color: var(--bs-secondary) !important;
+    color: var(--bs-blue) !important;
 }
 
 .footer .footer-item p.mb-4 {

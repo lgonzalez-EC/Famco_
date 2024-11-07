@@ -236,6 +236,14 @@
     background-size: cover;
 }
 
+.page-banner {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.623)), url(../img/cart-page-banner-img_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media (min-width: 992px) {
     .hero-header,
     .page-header {

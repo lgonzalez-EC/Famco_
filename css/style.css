@@ -117,8 +117,9 @@
 /*** Navbar Start ***/
 .navbar .navbar-nav .nav-link {
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 17px;
     transition: .5s;
+    color: #023e73;
 }
 
 .navbar {
@@ -136,7 +137,7 @@
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Font Awesome 5 Free";
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: 700;
     vertical-align: middle;
     margin-left: 8px;
@@ -400,10 +401,25 @@
 /*** vesitable End ***/
 
 /*** Banner Section Start ***/
+.banner .banner-btn{
+    background: #023e73;
+}
+
 .banner .banner-btn:hover {
     background: var(--bs-primary);
 }
 /*** Banner Section End ***/
+
+/* Button contact section Start */
+.contact .banner-btn{
+    background: #023e73;
+}
+
+.contact .banner-btn:hover{
+    background: var(--bs-primary);
+}
+
+/* Button contact section End */
 
 /*** Facts Start ***/
 .counter {

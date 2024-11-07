@@ -30,20 +30,20 @@
     });
 
 
-        // Back to top button
+    // Back to top button
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 10) {
+        if ($(this).scrollTop() > 20) {
             $('.back-to-top').fadeIn('fast'); 
         } else {
             $('.back-to-top').fadeOut('fast'); 
         }
     });
 
+
     $('.back-to-top').click(function () {
-        $('html, body').scrollTop(0); // Desplazamiento instantáneo hacia arriba
+        $('html, body').scrollTop(20); // Desplazamiento instantáneo hacia arriba
         return false;
     });
-
 
 
 

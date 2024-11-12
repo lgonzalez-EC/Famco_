@@ -274,12 +274,11 @@
     background: var(--bs-secondary);
     position: absolute;
     bottom: -10px;
-    transform: translate(-50%);
-    transform: rotate(45deg);
-    background: var(--bs-secondary);
-    
+    left: 50%; /* Centrar el elemento */
+    transform: translateX(-50%) rotate(45deg);
 }
 /*** featurs End ***/
+
 
 /*** service Start ***/
 .service .service-item .service-content {

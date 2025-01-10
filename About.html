@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>FAMCO - Contactanos</title>
+        <title>FAMCO - Nosotros</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -76,9 +76,9 @@
                         <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                             <div class="navbar-nav mx-auto">
                                 <a href="index.html" class="nav-item nav-link me-5">Inicio</a>
-                                <a href="About.html" class="nav-item nav-link me-5">Nosotros</a>
+                                <a href="About.html" class="nav-item nav-link me-5 active">Nosotros</a>
                                 <!-- <a href="shop.html" class="nav-item nav-link me-5">Productos</a> -->
-                                <a href="contact.html" class="nav-item nav-link me-5 active">Contacto</a>
+                                <a href="contact.html" class="nav-item nav-link me-5">Contacto</a>
                             </div>
                             <div class="d-flex m-3 me-0">
                                 <button class="btn-search btn border btn-md-square rounded-circle bg-white me-4" style="color: #023e72;" data-bs-toggle="modal" data-bs-target="#searchModal">
@@ -95,96 +95,187 @@
 
         <!-- Single Page Header start -->
         <div class="container-fluid page-header py-5">
-            <h1 class="text-center text-white display-6">Contacto</h1>
+            <h1 class="text-center text-white display-6">Nosotros</h1>
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a class="text-white" href="contact.html">Inicio</a></li>
-                <li class="breadcrumb-item active text-primary">Contacto</li>
+                <li class="breadcrumb-item active text-primary">Nosotros</li>
             </ol>
         </div>
         <!-- Single Page Header End -->
 
 
-        <!-- Contact Start -->
-        <div class="container-fluid contact py-5">
-            <div class="container py-5">
-                <div class="p-5 bg-light rounded">
-                    <div class="row g-4">
-                        <!-- Título y descripción -->
-                        <div class="col-12">
-                            <div class="text-center mx-auto" style="max-width: 700px;">
-                                <h1 class="text-primary">Necesitas más información, envíanos un correo</h1>
-                            </div>
-                        </div>
+        <!-- Nosotros Start -->
+        <div class="container-fluid py-5 position-relative" style="background-color: #f9f9f9; overflow: hidden;">
+            <!-- Fondo con logo difuminado -->
+            <div class="position-absolute w-100 h-100 animate-background hidden" style="top: 0; left: 0; z-index: 0; filter: blur(3px); opacity: 0.1;">
+                <img src="img/logo_famco.png" alt="Logo_Famco" class="w-100 h-100" style="object-fit: contain;">
+            </div>
 
-                        <!-- Formulario de contacto -->
-                        <div class="col-lg-6 contact">
-                            <form action="">
-                                <div class="row">
-                                    <div class="col-6 mb-4">
-                                        <input type="text" class="form-control border-1 py-2" placeholder="Nombre">
-                                    </div>
-                                    <div class="col-6 mb-4">
-                                        <input type="email" class="form-control border-1 py-2" placeholder="Correo">
-                                    </div>
-                                </div>
-                                <input type="text" class="form-control border-1 py-2 mb-4" placeholder="Asunto">
-                                <textarea class="form-control border-1 py-2 mb-3" rows="7" placeholder="Mensaje"></textarea>
-                                <a href="#" class="banner-btn btn btn-sm border-1 border-dark rounded-pill text-white px-3 py-2">Enviar</a>
-                            </form>
-                        </div>
-
-                        <!-- Información de contacto y mapa -->
-                        <div class="col-lg-6" style="padding-left: 50px;">
-                            <div>
-                                <h3 class="text-dark mb-3">Contactos</h3>
-                                <div class="d-flex align-items-center mb-3">
-                                    <i class="fas fa-map-marker-alt fa-lg text-primary me-3"></i>
-                                    <div>
-                                        <h6 class="mb-0">Dirección</h6>
-                                        <p class="mb-0">Calle Del Rocio 130-Local B, Jardines del Moral, 37160, Leon, Gto</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center mb-3">
-                                    <i class="fas fa-envelope fa-lg text-primary me-3"></i>
-                                    <div>
-                                        <h6 class="mb-0">Correo</h6>
-                                        <p class="mb-0">contacto@famcoarticulosmedicos.com.mx</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center mb-4">
-                                    <i class="fab fa-whatsapp fa-lg text-primary me-3"></i>
-                                    <div>
-                                        <h6 class="mb-0">WhatsApp</h6>
-                                        <p class="mb-0">477 182 8356</p>
-                                        <p class="mb-0">477 268 4544</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center mb-4">
-                                    <i class="fa-solid fa-phone fa-lg text-primary me-3"></i>
-                                    <div>
-                                        <h6 class="mb-0">Telefono</h6>
-                                        <p class="mb-0">477 688 8123</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center mb-4">
-                                    <i class="fa-solid fa-phone fa-lg text-primary me-3"></i>
-                                    <div>
-                                        <h6 class="mb-0">Telefono de Urgencias</h6>
-                                        <p class="mb-0">477 380 6226</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-4">
-                            <iframe class="rounded w-100" 
-                            style="height: 250px; border:0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2028.9940429744738!2d-101.6870199763833!3d21.144773634364217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf4120855555%3A0xb3691961785185a4!2sEdge%20%26%20Cloud!5e0!3m2!1ses!2smx!4v1730237219322!5m2!1ses!2smx" 
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+            <div class="container py-5 position-relative text-center animate-content hidden" style="z-index: 4;">
+                <div class="row justify-content-center">
+                    <h1 class="text-center mb-4 animate-heading hidden">¿Quiénes somos?</h1>
+                    <div class="col-md-8">
+                        <p class="animate-text hidden text-dark" style="margin-top: 100px;">
+                            <strong>Famco</strong> es una empresa comprometida con la comercialización de productos médicos 
+                            especializados que cumplen con la normatividad vigente y altos estándares de calidad. Nos enfocamos 
+                            en la prevención y tratamiento avanzado de heridas, estomas, linfedema, ortopedia, endoscopías, 
+                            terapia de presión negativa, sistemas de compresión, material de curación y desinfección.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+        <!-- Nosotros End -->
+
+        <!-- CSS para las animaciones -->
+        <style>
+        /* Animación de fondo */
+        @keyframes fadeInBackground {
+            from {
+                opacity: 0;
+                transform: scale(1.1);
+            }
+            to {
+                opacity: 0.1;
+                transform: scale(1);
+            }
+        }
+
+        /* Animación de contenido principal */
+        @keyframes fadeInContent {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animación de título */
+        @keyframes slideInFromLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Animación de texto */
+        @keyframes fadeInText {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Clases de animación */
+        .hidden {
+            opacity: 0;
+        }
+
+        .animate-background.show {
+            animation: fadeInBackground 4s ease-in-out forwards;
+        }
+
+        .animate-content.show {
+            animation: fadeInContent 2.5s ease-in-out forwards;
+        }
+
+        .animate-heading.show {
+            animation: slideInFromLeft 2.2s ease-out forwards;
+        }
+
+        .animate-text.show {
+            animation: fadeInText 4s ease-in-out forwards;
+        }
+        </style>
+
+        <!-- JavaScript para IntersectionObserver -->
+        <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("show");
+                        observer.unobserve(entry.target); // Deja de observar el elemento después de activar la animación
+                    }
+                });
+            });
+
+            // Selecciona todos los elementos que necesitan animación
+            const animatables = document.querySelectorAll(".hidden");
+            animatables.forEach(el => observer.observe(el));
+        });
+        </script>
+
+
+        
+<!-- Sección: Misión, Visión y Valores -->
+<div class="container-fluid py-5 bg-secondary text-white" style="margin-top: 100px;">
+    <div class="container text-center py-5">
+        <h1 class="display-4">Lo que nos define</h1>
+        <p>Contamos con empresas aliadas</p>
+
+        <div class="row g-4">
+            <!-- Misión -->
+            <div class="col-md-4">
+                <div class="p-5 rounded shadow-lg bg-white text-dark">
+                    <div class="d-flex justify-content-center align-items-center mb-4" style="height: 100px; width: 100px; background-color: #f8d7da; border-radius: 50%;">
+                        <i class="fa-solid fa-bullseye fa-3x text-danger"></i>
+                    </div>
+                    <h5 class="fw-bold">Misión</h5>
+                    <p class="mt-3">
+                        Brindar servicio y distribución de artículos y productos médicos especializados de 
+                        calidad, científicamente comprobados y vanguardias; con oportunidad y excelencia por 
+                        personal capacitado, con la finalidad de mejorar la salud, calidad de vida y bienestar 
+                        de los pacientes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Visión -->
+            <div class="col-md-4">
+                <div class="p-5 rounded shadow-lg bg-white text-dark">
+                    <div class="d-flex justify-content-center align-items-center mb-4" style="height: 100px; width: 100px; background-color: #d1ecf1; border-radius: 50%;">
+                        <i class="fa-solid fa-lightbulb fa-3x text-info"></i>
+                    </div>
+                    <h5 class="fw-bold">Visión</h5>
+                    <p class="mt-3">
+                        Ser la empresa reconocida como líder en el sector social y del bajío, por sus artículos, 
+                        servicios y productos médicos especializados, apegados a las normas y estándares de 
+                        calidad vigente.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Valores -->
+            <div class="col-md-4">
+                <div class="p-5 rounded shadow-lg bg-white text-dark">
+                    <div class="d-flex justify-content-center align-items-center mb-4" style="height: 100px; width: 100px; background-color: #d4edda; border-radius: 50%;">
+                        <i class="fa-solid fa-hand-holding-heart fa-3x text-success"></i>
+                    </div>
+                    <h5 class="fw-bold">Valores</h5>
+                    <ul class="mt-3 list-unstyled">
+                        <li class="mb-2">Seguridad y confianza</li>
+                        <li class="mb-2">Servicio</li>
+                        <li>Honestidad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fin de Misión, Visión y Valores -->
+
 
 
         <!-- Footer Start -->
